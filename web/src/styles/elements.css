@@ -1,0 +1,69 @@
+/* Keep Tailwind's element utilities without resetting the rest of the workbench. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "tw-shimmer";
+@import "tw-animate-css";
+@source "../components/assistant-ui";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+@theme inline {
+  --spacing: 4px;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: var(--message-size, 16px);
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-muted: var(--muted-background);
+  --color-primary: var(--foreground);
+  --color-ring: var(--border);
+}
+[data-slot="collapsible-content"] {
+  --collapsible-panel-height: var(--radix-collapsible-content-height);
+  overflow: hidden;
+}
+[data-slot="collapsible-content"][data-state="open"] {
+  height: auto;
+  animation: activity-expand 200ms ease-out;
+}
+[data-slot="collapsible-content"][data-state="closed"] {
+  animation: activity-collapse 180ms ease-in;
+}
+@keyframes activity-expand {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--radix-collapsible-content-height);
+    opacity: 1;
+  }
+}
+@keyframes activity-collapse {
+  from {
+    height: var(--radix-collapsible-content-height);
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-slot="collapsible-content"] {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@layer base {
+  .aui-md :where(ul, ol) {
+    padding: 0;
+  }
+  .aui-md :where(blockquote) {
+    margin-inline: 0;
+  }
+}

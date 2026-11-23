@@ -1,0 +1,442 @@
+.page {
+  container: insights / inline-size;
+  height: 100%;
+  overflow: auto;
+  padding: 24px;
+  background: var(--bg);
+  font-size: 13px;
+}
+.heading,
+.search,
+.card header,
+.card header strong,
+.sessionGrid header,
+.pills,
+.dates,
+.sourceLine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.heading {
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.heading h1 {
+  margin: 0 8px 0 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.heading > span,
+.search input {
+  flex: 1;
+}
+.heading > button,
+.pills button {
+  min-height: 30px;
+  height: auto;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.pills {
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 3px;
+  background: var(--hover);
+  border-radius: 10px;
+  width: fit-content;
+  max-width: 100%;
+}
+.pills button {
+  color: var(--muted);
+  border-radius: 7px;
+}
+.pills button[aria-pressed="true"] {
+  color: var(--fg);
+  background: var(--bg);
+  box-shadow: 0 1px 3px #0001;
+}
+.sourceLine {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 14px;
+  color: var(--muted);
+}
+.sourceLine label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.page small {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.grid,
+.stats,
+.details,
+.sessionGrid {
+  display: grid;
+  gap: 16px;
+}
+.grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.stats {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.stats > div {
+  min-width: 0;
+  display: grid;
+  align-content: center;
+  gap: 5px;
+  padding: 18px;
+  border-radius: 16px;
+}
+.stats b {
+  font-size: 26px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.card {
+  min-width: 0;
+  border-radius: 16px;
+  padding: 18px;
+}
+.card header {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  min-height: 28px;
+}
+.card header strong {
+  font-weight: 550;
+}
+.card header svg {
+  color: var(--muted);
+}
+.trend {
+  max-width: none;
+  border: 0;
+  padding: 0;
+}
+.trend > svg {
+  height: 110px;
+}
+.dayLabels {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  text-align: center;
+  gap: 3px;
+  margin-top: 8px;
+}
+.note {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 12px 0 0;
+}
+.distribution {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  min-height: 110px;
+}
+.ring {
+  width: 100px;
+  aspect-ratio: 1;
+  flex: none;
+  position: relative;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.ring svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.ring > div {
+  display: grid;
+  place-content: center;
+}
+.ring b {
+  font-size: 15px;
+}
+.legend {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.legend > div {
+  display: grid;
+  grid-template-columns: 7px minmax(0, 1fr) auto;
+  gap: 3px 6px;
+  align-items: baseline;
+  font-size: 12px;
+}
+.legend i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.legend small {
+  grid-column: 2 / -1;
+}
+.details {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 16px 0 24px;
+}
+.details > .card {
+  display: flex;
+  flex-direction: column;
+  height: 270px;
+}
+.activityGraph {
+  max-width: none;
+  border: 0;
+  padding: 0;
+  margin: auto 0;
+}
+.activityGraph [role="button"] {
+  cursor: pointer;
+}
+.activityGraph [role="button"]:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 2px;
+}
+.counts {
+  overflow: auto;
+  margin: 0;
+}
+.counts > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.counts dt {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.counts dd {
+  margin: 0;
+  flex: none;
+  font-variant-numeric: tabular-nums;
+}
+.counts i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  opacity: 0.55;
+}
+.empty {
+  margin: auto;
+  padding: 24px 0;
+  color: var(--muted);
+  text-align: center;
+}
+.search {
+  flex-wrap: wrap;
+  margin: 18px 0 12px;
+}
+.search input {
+  min-width: 140px;
+}
+.search b small {
+  margin-left: 5px;
+}
+.sessionGrid {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr));
+  margin-top: 16px;
+}
+.sessionGrid > button {
+  display: block;
+  min-width: 0;
+  height: auto;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  white-space: normal;
+  text-align: left;
+  background: var(--bg);
+}
+.sessionGrid > button:hover {
+  background: var(--hover);
+}
+.sessionGrid header {
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 6px;
+}
+.sessionGrid header b {
+  overflow-wrap: anywhere;
+}
+.sessionGrid header small {
+  flex: none;
+}
+.sessionUsage {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 18px;
+}
+.sessionUsage .ring {
+  width: 70px;
+}
+.sessionUsage .ring b {
+  font-size: 14px;
+}
+.sessionUsage dl {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 8px;
+  margin: 0;
+  font-size: 12px;
+}
+.sessionUsage dt {
+  color: var(--muted);
+}
+.sessionUsage dd {
+  margin: 0;
+  text-align: right;
+}
+.dates {
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.dates input {
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--fg);
+}
+.settingsDialog,
+.sessionDialog {
+  max-height: calc(100dvh - 40px);
+  overflow: auto;
+}
+
+.settingsDialog fieldset {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  margin: 14px 0;
+}
+.settingsDialog label {
+  display: grid;
+  gap: 6px;
+}
+.settingsDialog input {
+  min-width: 0;
+  width: 100%;
+}
+.settingsDialog p,
+.sessionDialog p {
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.sessionDialog [data-slot="context-breakdown"] {
+  max-width: none;
+  margin: 18px 0;
+}
+.detailRows {
+  margin: 18px 0;
+}
+.detailRows > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding: 8px 0;
+  font-size: 13px;
+}
+.detailRows dt {
+  color: var(--muted);
+}
+.detailRows dd {
+  margin: 0;
+}
+.preview {
+  max-height: 140px;
+  overflow: auto;
+}
+@container insights (max-width:1100px) {
+  .details {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .legend {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+@container insights (max-width:760px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .legend {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@container insights (max-width:500px) {
+  .details {
+    grid-template-columns: 1fr;
+  }
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .stats > div {
+    padding: 14px;
+  }
+  .stats b {
+    font-size: 23px;
+  }
+  .heading > span {
+    display: none;
+  }
+  .search input {
+    flex-basis: 100%;
+  }
+  .legend {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .page {
+    padding: 52px 16px 20px;
+  }
+}
+.trends {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.trends .trend > span {
+  font-size: 20px;
+}
+@container insights (max-width:500px) {
+  .trends {
+    grid-template-columns: 1fr;
+  }
+}
+
+.details > .card:has([data-slot="activity-graph"]) {
+  min-height: 300px;
+  height: auto;
+}

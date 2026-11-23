@@ -1,0 +1,199 @@
+.page {
+  container: im / inline-size;
+  height: 100%;
+  overflow: auto;
+  padding: 16px;
+  font-size: 14px;
+}
+.header,
+.tabs,
+.panel {
+  width: 100%;
+  max-width: 920px;
+  margin-inline: auto;
+}
+.header h2 {
+  margin: 0;
+  font-size: 22px;
+}
+.page p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 6px 0 12px;
+}
+.tabs {
+  display: flex;
+  gap: 6px;
+  padding: 16px 0;
+}
+.tabs > button {
+  display: flex;
+  gap: 8px;
+  border-radius: 10px;
+  padding: 8px 14px;
+}
+.tabs > button[aria-selected="true"] {
+  background: var(--hover);
+  color: var(--fg);
+}
+.panel {
+  display: grid;
+  gap: 16px;
+}
+.card {
+  padding: 22px;
+  border-radius: 16px;
+  min-width: 0;
+}
+.card > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+.status {
+  flex: none;
+  padding: 5px 10px;
+  background: var(--hover);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.status[data-state="connected"] {
+  color: #18824b;
+  background: #16a34a12;
+}
+.status[data-state="error"],
+.error {
+  color: #dc5353;
+}
+.page > .error {
+  max-width: 920px;
+  margin-inline: auto;
+}
+.card form {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+.fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.card label {
+  display: grid;
+  min-width: 0;
+  gap: 7px;
+  font-size: 12px;
+}
+.card input {
+  width: 100%;
+  min-width: 0;
+}
+.card footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.card footer > span {
+  color: var(--muted);
+  font-size: 12px;
+}
+.route,
+.delivery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 0;
+  gap: 16px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+.route > div {
+  min-width: 0;
+}
+.route small,
+.delivery small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+.delivery > div {
+  min-width: 0;
+  flex: 1;
+}
+.delivery p {
+  overflow-wrap: anywhere;
+  margin: 6px 0;
+}
+.delivery [data-delivery="failed"],
+.delivery [data-delivery="unknown"] {
+  color: #dc5353;
+}
+.delivery [data-delivery="sent"] {
+  color: #18824b;
+}
+.empty {
+  color: var(--muted);
+  text-align: center;
+  padding: 24px 0;
+  font-size: 12px;
+}
+.qrDialog {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  padding: 24px;
+  width: min(360px, calc(100vw - 32px));
+}
+
+.qrDialog h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.qrDialog img {
+  max-width: 100%;
+}
+@container im (max-width:540px) {
+  .fields {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 16px;
+  }
+  .card > header {
+    flex-wrap: wrap;
+  }
+  .tabs {
+    gap: 2px;
+  }
+  .tabs > button {
+    padding: 8px 10px;
+  }
+  .route {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.scan {
+  justify-self: start;
+}
+.qrDialog form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}

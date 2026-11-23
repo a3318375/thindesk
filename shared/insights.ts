@@ -1,0 +1,36 @@
+import type { TokenBreakdown } from "./workspace.ts";
+export type InsightDay = {
+  date: string;
+  tokens: number;
+  runs: number;
+  tools: number;
+  seconds: number;
+  usage?: TokenBreakdown;
+};
+export type InsightSession = {
+  id: string;
+  title: string;
+  workspace: string;
+  preview: string;
+  updatedAt?: number;
+  archived: boolean;
+  agent: string;
+  model: string;
+  sample: boolean;
+  turns: number;
+  steps: number;
+  tools: Record<string, number>;
+  commands: Record<string, number>;
+  skills: Record<string, number>;
+  usage?: TokenBreakdown;
+  contextTokens?: number;
+  contextWindow?: number;
+  seconds: number;
+  toolSeconds: number;
+  toolRunSeconds: number;
+  timedRuns: number;
+  days: InsightDay[];
+  undatedTokens: number;
+  sampleCost?: number;
+};
+export type InsightsData = { sessions: InsightSession[]; generatedAt: number };

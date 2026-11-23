@@ -1,0 +1,246 @@
+.stack {
+  width: min(100%, var(--conversation-width));
+  max-width: var(--conversation-width);
+  padding: 0;
+  margin-inline: auto;
+}
+.stack.hero {
+  width: min(100%, var(--conversation-width));
+}
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.headline h1 {
+  margin: 0;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 28px;
+  font-weight: 650;
+  letter-spacing: -0.8px;
+}
+.choices {
+  display: flex;
+  align-items: center;
+  margin: 12px 4px 8px;
+  gap: 4px;
+  height: 28px;
+}
+.choices button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 8px;
+  height: 28px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.choices svg:last-child {
+  color: var(--faint);
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 8px;
+  gap: 0;
+  min-height: 82px;
+  width: 100%;
+  max-width: none;
+  margin-inline: auto;
+  color: var(--fg);
+  border: 1px solid var(--composer-border);
+  border-radius: 16px;
+  background: var(--composer-bg);
+  box-shadow: none;
+}
+.pending {
+  cursor: pointer;
+}
+.pending :disabled {
+  pointer-events: none;
+}
+.card textarea,
+.placeholder {
+  width: 100%;
+  background: transparent;
+  text-align: left;
+  color: inherit;
+  font: inherit;
+  line-height: 22px;
+}
+.card textarea {
+  padding: 4px 8px;
+  font-size: 15px;
+  resize: none;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  scrollbar-width: thin;
+}
+.card textarea::placeholder {
+  color: var(--composer-placeholder);
+  opacity: 1;
+}
+.placeholder {
+  min-height: 30px;
+  display: flex;
+  align-items: flex-start;
+  color: var(--faint);
+  background: transparent !important;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 0;
+  min-height: 28px;
+  margin-top: 4px;
+  gap: 8px;
+}
+.leftActions,
+.rightActions {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  flex: 0 1 auto;
+}
+.leftActions {
+  gap: 2px;
+}
+.rightActions {
+  gap: 4px;
+}
+.actions :global(.ui-icon-button) {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  min-height: 28px;
+  border-radius: 8px;
+}
+.actions .send:not(:disabled) {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+.actions .permission {
+  min-width: 0;
+  width: auto;
+  height: 28px;
+  min-height: 28px;
+  padding: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.commandMenu {
+  width: var(--anchor-width);
+  max-width: calc(100vw - 16px);
+}
+.commandMenu :global([cmdk-list]) {
+  max-height: min(400px, var(--available-height));
+  overflow: auto;
+}
+.commandRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.commandHint {
+  flex: 1;
+  text-align: end;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.permission[aria-expanded="true"] svg:last-child {
+  transform: rotate(180deg);
+}
+
+.card .placeholder {
+  height: auto;
+  width: 100%;
+  justify-content: flex-start;
+  white-space: normal;
+}
+
+.commandMenu :global([cmdk-group-heading]) {
+  padding: 8px 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.commandMenu :global([cmdk-item]) {
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.commandMenu :global([cmdk-item][data-selected="true"]) {
+  background: var(--hover);
+}
+
+.actions .send:disabled {
+  opacity: 1;
+  background: #a3a3a3;
+  color: white;
+}
+
+.actions :global(.ui-icon-button:not(.ui-primary)) {
+  color: var(--composer-muted);
+}
+
+.permission span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.permission svg {
+  flex-shrink: 0;
+}
+@media (max-width: 550px) {
+  .actions {
+    gap: 2px;
+  }
+  .actions .permission {
+    padding: 0 2px;
+    max-width: 98px;
+    font-size: 11px;
+    gap: 2px;
+  }
+  .rightActions {
+    flex: 1;
+    justify-content: flex-end;
+    gap: 2px;
+  }
+  .actions :global(.modelTrigger) {
+    max-width: 150px;
+    padding: 0 2px;
+    gap: 3px;
+    font-size: 11px;
+  }
+  .actions :global(.modelTrigger > svg:first-child) {
+    display: none;
+  }
+}
+
+.choices > button:first-child {
+  min-width: 0;
+  max-width: calc(100% - 110px);
+}
+.projectLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.choices > button > svg {
+  flex-shrink: 0;
+}

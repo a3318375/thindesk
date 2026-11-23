@@ -1,0 +1,34 @@
+node_modules/
+dist/
+
+# Local deployment, credentials and CLI state
+.local/
+.env
+.env.*
+!.env.example
+.npmrc
+.codex/
+.pi/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+auth.json
+secrets.json
+
+# Runtime state, backups and browser artifacts
+*.sqlite*
+*.db
+*.db-wal
+*.db-shm
+*.jsonl
+*.log
+*.bak
+/backups/
+/runs/
+/pi-sessions/
+/uploads/
+/screenshots/
+/test-results/
+/playwright-report/

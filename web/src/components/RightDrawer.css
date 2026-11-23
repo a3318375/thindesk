@@ -1,0 +1,29 @@
+.ui-dialog.deskDialog.rightDrawer {
+  inset: 0 0 0 auto;
+  transform: none;
+  width: min(800px, 100vw);
+  height: 100dvh;
+  max-width: 100vw;
+  max-height: 100dvh;
+  border-radius: 16px 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: drawer-slide-in 180ms ease-out;
+}
+.rightDrawer > header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.rightDrawer > header > div { flex: 1; min-width: 0; }
+.rightDrawer > header strong { display: block; overflow-wrap: anywhere; }
+.rightDrawer > header small { display: block; color: var(--secondary-label); overflow-wrap: anywhere; }
+.rightDrawerBody { flex: 1; min-height: 0; overflow: auto; padding: 20px 24px 40px; }
+.rightDrawerBody .markdown { max-width: 100%; overflow-wrap: anywhere; }
+.rightDrawerBody pre { max-width: 100%; overflow-x: auto; }
+@keyframes drawer-slide-in { from { transform: translateX(100%); } to { transform: translateX(0); } }
+@media (prefers-reduced-motion: reduce) { .ui-dialog.deskDialog.rightDrawer { animation: none; } }
+@media (max-width: 767px) { .ui-dialog.deskDialog.rightDrawer { border-radius: 0; } }

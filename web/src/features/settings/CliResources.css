@@ -1,0 +1,12 @@
+.cliResources { margin-top: 24px; min-width: 0; }
+.cliResources header { display: flex; justify-content: space-between; gap: 8px; align-items: center; flex-wrap: wrap; }
+.cliResources header > div { display: flex; gap: 4px; flex-wrap: wrap; }
+.cliResources small { display: block; color: var(--secondary-label); overflow-wrap: anywhere; }
+.cliResources > p { font-size: 13px; color: var(--secondary-label); }
+.cliResourceRow { display: flex; align-items: center; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+.cliResourceRow > div { flex: 1; min-width: 0; }
+.cliResourceRow p { font-size: 12px; margin: 4px 0; }
+.cliResourceRow > button { flex-shrink: 0; }
+.cliResources form { display: grid; gap: 10px; margin-top: 12px; }
+.cliResources label { display: grid; gap: 4px; }
+.cliResources input { width: 100%; }

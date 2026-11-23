@@ -1,0 +1,1425 @@
+{
+  "个人助手": ["Personal assistant", "パーソナルアシスタント", "Asistente personal", "Assistant personnel", "Persönlicher Assistent", "Личный помощник", "Assistente pessoal"],
+  "Agent 预设": [
+    "Agent presets",
+    "エージェントプリセット",
+    "Ajustes preestablecidos del agente",
+    "Préréglages d'agent",
+    "Agentenvoreinstellungen",
+    "Настройки агента",
+    "Predefinições de agente"
+  ],
+  "PTC 模式": [
+    "PTC mode",
+    "PTC モード",
+    "Modo PTC",
+    "Mode PTC",
+    "PTC-Modus",
+    "Режим PTC",
+    "modo PTC"
+  ],
+  "上下文": [
+    "CONTEXT",
+    "コンテキスト",
+    "CONTEXTO",
+    "CONTEXTE",
+    "KONTEXT",
+    "КОНТЕКСТ",
+    "CONTEXTO"
+  ],
+  "下次有新消息时": [
+    "On next message",
+    "次のメッセージ送信時",
+    "En el siguiente mensaje",
+    "Au prochain message",
+    "Bei der nächsten Nachricht",
+    "В следующем сообщении",
+    "Na próxima mensagem"
+  ],
+  "下载日志": [
+    "Export",
+    "エクスポート",
+    "Exportar",
+    "Exporter",
+    "Exportieren",
+    "Экспорт",
+    "Exportar"
+  ],
+  "仅一次": [
+    "Once",
+    "1回のみ",
+    "una vez",
+    "Une fois",
+    "Einmal",
+    "Однажды",
+    "Uma vez"
+  ],
+  "仅可查看": [
+    "Read Only",
+    "読み取り専用",
+    "Sólo lectura",
+    "Lecture seule",
+    "Nur lesen",
+    "Только чтение",
+    "Somente leitura"
+  ],
+  "仅影响会话内容的字号": [
+    "Only affects conversation content",
+    "会話コンテンツにのみ適用",
+    "Sólo afecta al contenido de la conversación.",
+    "Affecte uniquement le contenu de la conversation",
+    "Betrifft nur Konversationsinhalte",
+    "Влияет только на содержание разговора",
+    "Afeta apenas o conteúdo da conversa"
+  ],
+  "仅显示已归档": [
+    "Archived only",
+    "アーカイブのみ",
+    "Sólo archivado",
+    "Archivé uniquement",
+    "Nur archiviert",
+    "Только в архиве",
+    "Somente arquivado"
+  ],
+  "仅最终回答": [
+    "Final answer only",
+    "最終回答のみ",
+    "Solo respuesta final",
+    "Réponse finale seulement",
+    "Nur die endgültige Antwort",
+    "Только окончательный ответ",
+    "Apenas resposta final"
+  ],
+  "任务": [
+    "To-dos",
+    "ToDo",
+    "Tareas pendientes",
+    "À faire",
+    "Aufgaben",
+    "Дела",
+    "Tarefas"
+  ],
+  "会话": [
+    "Sessions",
+    "セッション",
+    "Sesiones",
+    "Séances",
+    "Sitzungen",
+    "Сессии",
+    "Sessões"
+  ],
+  "会话名称": [
+    "Session name",
+    "セッション名",
+    "Nombre de la sesión",
+    "Nom de la séance",
+    "Sitzungsname",
+    "Имя сеанса",
+    "Nome da sessão"
+  ],
+  "保存": [
+    "Save",
+    "保存",
+    "Guardar",
+    "Enregistrer",
+    "Speichern",
+    "Сохранить",
+    "Salvar"
+  ],
+  "停止": [
+    "Stop",
+    "停止",
+    "Detener",
+    "Arrêter",
+    "Stopp",
+    "Стоп",
+    "Pare"
+  ],
+  "停止生成": [
+    "Stop generating",
+    "生成を停止",
+    "Detener generación",
+    "Arrêter la génération",
+    "Generierung stoppen",
+    "Остановить генерацию",
+    "Parar geração"
+  ],
+  "允许一次": [
+    "Allow once",
+    "1 回だけ許可",
+    "permitir una vez",
+    "Autoriser une fois",
+    "Einmal zulassen",
+    "Разрешить один раз",
+    "Permitir uma vez"
+  ],
+  "全局面板": [
+    "Global panels",
+    "グローバルパネル",
+    "Paneles globales",
+    "Panneaux globaux",
+    "Globale Bereiche",
+    "Глобальные панели",
+    "Painéis globais"
+  ],
+  "全屏": [
+    "Fullscreen",
+    "全画面",
+    "Pantalla completa",
+    "Plein écran",
+    "Vollbild",
+    "Полноэкранный режим",
+    "Tela cheia"
+  ],
+  "全部": [
+    "All",
+    "すべて",
+    "Todos",
+    "Tout",
+    "Alle",
+    "Все",
+    "Todos"
+  ],
+  "全部回复": [
+    "All replies",
+    "すべての返信",
+    "Todas las respuestas",
+    "Toutes les réponses",
+    "Alle Antworten",
+    "Все ответы",
+    "Todas as respostas"
+  ],
+  "全部对话（显示已归档）": [
+    "All conversations (show archived)",
+    "すべての会話（アーカイブを表示）",
+    "Todas las conversaciones (mostrar archivadas)",
+    "Toutes les conversations (afficher les archives)",
+    "Alle Gespräche (archiviert anzeigen)",
+    "Все разговоры (показать в архиве)",
+    "Todas as conversas (mostrar arquivadas)"
+  ],
+  "关联工作区": [
+    "Linked workspace",
+    "リンクされたワークスペース",
+    "Espacio de trabajo vinculado",
+    "Espace de travail lié",
+    "Verknüpfter Arbeitsbereich",
+    "Связанное рабочее пространство",
+    "Espaço de trabalho vinculado"
+  ],
+  "关闭": [
+    "Close",
+    "閉じる",
+    "Cerrar",
+    "Fermer",
+    "Schließen",
+    "Закрыть",
+    "Fechar"
+  ],
+  "分叉会话": [
+    "Fork session",
+    "セッションをフォーク",
+    "Crear una bifurcación de la sesión",
+    "Créer une branche de la session",
+    "Sitzung abzweigen",
+    "Создать ответвление сеанса",
+    "Bifurcar sessão"
+  ],
+  "分栏": [
+    "Split",
+    "分割",
+    "dividir",
+    "Diviser",
+    "Geteilt",
+    "Сплит",
+    "Dividir"
+  ],
+  "分组方式": [
+    "Group by",
+    "グループ化",
+    "Agrupar por",
+    "Regrouper par",
+    "Gruppieren nach",
+    "Группировать по",
+    "Agrupar por"
+  ],
+  "创建": [
+    "Create",
+    "作成",
+    "Crear",
+    "Créer",
+    "Erstellen",
+    "Создать",
+    "Criar"
+  ],
+  "创造模式": [
+    "Creator mode",
+    "クリエイターモード",
+    "Modo creador",
+    "Mode Créateur",
+    "Erstellermodus",
+    "Режим автора",
+    "Modo criador"
+  ],
+  "单列表": [
+    "In one list",
+    "1つのリスト",
+    "en una lista",
+    "Dans une liste",
+    "In einer Liste",
+    "В одном списке",
+    "Em uma lista"
+  ],
+  "压缩": [
+    "Compaction",
+    "コンパクション",
+    "Compactación",
+    "Compactage",
+    "Verdichtung",
+    "Уплотнение",
+    "Compactação"
+  ],
+  "反馈": [
+    "Feedback",
+    "フィードバック",
+    "Comentarios",
+    "Commentaires",
+    "Rückmeldung",
+    "Обратная связь",
+    "Comentários"
+  ],
+  "发送消息": [
+    "Send message",
+    "メッセージを送信",
+    "Enviar mensaje",
+    "Envoyer le message",
+    "Nachricht senden",
+    "Отправить сообщение",
+    "Enviar mensagem"
+  ],
+  "取消": [
+    "Cancel",
+    "キャンセル",
+    "Cancelar",
+    "Annuler",
+    "Abbrechen",
+    "Отмена",
+    "Cancelar"
+  ],
+  "取消归档": [
+    "Unarchive",
+    "アーカイブを解除",
+    "Desarchivar",
+    "Désarchiver",
+    "Dearchivieren",
+    "Разархивировать",
+    "Desarquivar"
+  ],
+  "启用": [
+    "Enable",
+    "有効にする",
+    "Habilitar",
+    "Activer",
+    "Aktivieren",
+    "Включить",
+    "Ativar"
+  ],
+  "回答结束后": [
+    "On completion",
+    "完了時",
+    "Al finalizar",
+    "À la fin",
+    "Nach Fertigstellung",
+    "По завершении",
+    "Na conclusão"
+  ],
+  "在会话工作区运行命令": [
+    "Run commands in the Session workspace",
+    "セッションのワークスペースでコマンドを実行",
+    "Ejecutar comandos en el espacio de trabajo de sesión",
+    "Exécuter des commandes dans l’espace de travail de la session",
+    "Führen Sie Befehle im Sitzungsarbeitsbereich aus",
+    "Запуск команд в рабочей области сеанса",
+    "Execute comandos no espaço de trabalho Sessão"
+  ],
+  "在使用官方模型 API 时上传 Session Log": [
+    "Upload Session Log when using the official model API",
+    "公式モデル API 使用時にセッションログをアップロード",
+    "Cargar registro de sesión cuando utilice el modelo oficial API",
+    "Téléchargez le journal de session lors de l'utilisation du modèle officiel API",
+    "Laden Sie das Sitzungsprotokoll hoch, wenn Sie das offizielle Modell API verwenden",
+    "Загрузить журнал сеансов при использовании официальной модели API",
+    "Carregar log de sessão ao usar o modelo oficial API"
+  ],
+  "复制": [
+    "Copy",
+    "コピー",
+    "Copiar",
+    "Copier",
+    "Kopieren",
+    "Копировать",
+    "Copiar"
+  ],
+  "复制代码": [
+    "Copy code",
+    "コードをコピー",
+    "Copiar código",
+    "Copier le code",
+    "Code kopieren",
+    "Скопировать код",
+    "Copiar código"
+  ],
+  "外观": [
+    "Appearance",
+    "外観",
+    "Apariencia",
+    "Apparence",
+    "Aussehen",
+    "Внешний вид",
+    "Aparência"
+  ],
+  "字号大小": [
+    "Font size",
+    "フォントサイズ",
+    "Tamaño de fuente",
+    "Taille de la police",
+    "Schriftgröße",
+    "Размер шрифта",
+    "Tamanho da fonte"
+  ],
+  "完全展开": [
+    "Verbose",
+    "冗長",
+    "Detallado",
+    "Verbeux",
+    "Ausführlich",
+    "Многословный",
+    "Verboso"
+  ],
+  "完全权限": [
+    "Full access",
+    "フルアクセス",
+    "Acceso completo",
+    "Accès complet",
+    "Voller Zugriff",
+    "Полный доступ",
+    "Acesso total"
+  ],
+  "导航": [
+    "Navigation",
+    "ナビゲーション",
+    "Navegación",
+    "Navigation",
+    "Navigation",
+    "Навигация",
+    "Navegação"
+  ],
+  "工作区": [
+    "Workspaces",
+    "ワークスペース",
+    "Espacios de trabajo",
+    "Espaces de travail",
+    "Arbeitsbereiche",
+    "Рабочие пространства",
+    "Espaços de trabalho"
+  ],
+  "工作区内修改": [
+    "Workspace Write",
+    "ワークスペース書き込み",
+    "Escritura en el espacio de trabajo",
+    "Écriture dans l'espace de travail",
+    "Arbeitsbereich schreiben",
+    "Запись в рабочей области",
+    "Gravação no espaço de trabalho"
+  ],
+  "工作区文件": [
+    "Workspace files",
+    "ワークスペースのファイル",
+    "Archivos de espacio de trabajo",
+    "Fichiers de l'espace de travail",
+    "Arbeitsbereichsdateien",
+    "Файлы рабочей области",
+    "Arquivos do espaço de trabalho"
+  ],
+  "工作步骤展示": [
+    "Work details",
+    "作業の詳細",
+    "Detalles del trabajo",
+    "Détails du travail",
+    "Arbeitsdetails",
+    "Детали работы",
+    "Detalhes do trabalho"
+  ],
+  "工作步骤收起后，保留哪些助手回复": [
+    "Choose which assistant replies stay visible when work details collapse",
+    "作業詳細の折りたたみ時に表示するアシスタントの返信を選択",
+    "Elija qué respuestas del asistente permanecen visibles cuando los detalles del trabajo colapsan",
+    "Choisissez quelles réponses de l'assistant restent visibles lorsque les détails du travail sont réduits",
+    "Wählen Sie aus, welche Assistentenantworten sichtbar bleiben, wenn die Arbeitsdetails ausgeblendet werden",
+    "Выберите, какие ответы помощника останутся видимыми, когда сведения о работе будут свернуты.",
+    "Escolha quais respostas do assistente permanecerão visíveis quando os detalhes do trabalho forem recolhidos"
+  ],
+  "工作步骤收起时机": [
+    "When to Collapse Work Details",
+    "作業詳細を折りたたむタイミング",
+    "Cuándo contraer los detalles del trabajo",
+    "Quand réduire les détails du travail",
+    "Wann Arbeitsdetails minimiert werden sollten",
+    "Когда сворачивать детали работы",
+    "Quando recolher detalhes do trabalho"
+  ],
+  "工具定义": [
+    "Tool definitions",
+    "ツール定義",
+    "Definiciones de herramientas",
+    "Définitions d'outils",
+    "Werkzeugdefinitionen",
+    "Определения инструментов",
+    "Definições de ferramentas"
+  ],
+  "工具调用": [
+    "Tool Call",
+    "ツール呼び出し",
+    "Llamada de herramienta",
+    "Appel d'outil",
+    "Werkzeugaufruf",
+    "Вызов инструмента",
+    "Chamada de ferramenta"
+  ],
+  "已复制": [
+    "Copied",
+    "コピーしました",
+    "Copiado",
+    "Copié",
+    "Kopiert",
+    "Скопировано",
+    "Copiado"
+  ],
+  "已开启": [
+    "Enabled",
+    "有効",
+    "Habilitado",
+    "Activé",
+    "Aktiviert",
+    "Включено",
+    "Habilitado"
+  ],
+  "已暂停": [
+    "Paused",
+    "一時停止中",
+    "Pausada",
+    "Suspendue",
+    "Pausiert",
+    "Приостановлена",
+    "Pausada"
+  ],
+  "已结束": [
+    "Ended",
+    "終了",
+    "Finalizada",
+    "Terminée",
+    "Beendet",
+    "Завершена",
+    "Concluída"
+  ],
+  "帮助改进 DeepSeek 模型与产品": [
+    "Help improve DeepSeek models and products.",
+    "DeepSeek のモデルと製品の改善にご協力ください。",
+    "Ayude a mejorar los modelos y productos DeepSeek.",
+    "Aidez à améliorer les modèles et produits DeepSeek.",
+    "Helfen Sie mit, DeepSeek-Modelle und -Produkte zu verbessern.",
+    "Помогите улучшить модели и продукты DeepSeek.",
+    "Ajude a melhorar DeepSeek modelos e produtos."
+  ],
+  "开启后，显示轨迹、本轮代码差异，可选择完整的 Agent 预设切换": [
+    "Shows trajectory, code diffs, and all Agent presets",
+    "軌跡、コード差分、すべてのエージェントプリセットを表示します",
+    "Muestra la trayectoria, las diferencias de código y todos los ajustes preestablecidos del agente.",
+    "Affiche la trajectoire, les différences de code et tous les préréglages d'agent",
+    "Zeigt Ausführungsverlauf, Codeunterschiede und alle Agentenvoreinstellungen an",
+    "Показывает траекторию, различия в коде и все настройки агента.",
+    "Mostra trajetória, diferenças de código e todas as predefinições do agente"
+  ],
+  "开始": [
+    "Start",
+    "開始",
+    "Empezar",
+    "Commencer",
+    "Starten",
+    "Старт",
+    "Começar"
+  ],
+  "快捷键": [
+    "Keyboard shortcuts",
+    "キーボードショートカット",
+    "Atajos de teclado",
+    "Raccourcis clavier",
+    "Tastaturkürzel",
+    "Сочетания клавиш",
+    "Atalhos de teclado"
+  ],
+  "性能与用量": [
+    "Performance & usage",
+    "パフォーマンスと使用状況",
+    "Rendimiento y uso",
+    "Performances et utilisation",
+    "Leistung und Nutzung",
+    "Производительность и использование",
+    "Desempenho e uso"
+  ],
+  "手动创建": [
+    "Create manually",
+    "手動で作成",
+    "Crear manualmente",
+    "Créer manuellement",
+    "Manuell erstellen",
+    "Создать вручную",
+    "Criar manualmente"
+  ],
+  "手动排序": [
+    "Manual",
+    "手動",
+    "manuales",
+    "Manuel",
+    "Handbuch",
+    "Руководство",
+    "Manuais"
+  ],
+  "打开": [
+    "Open",
+    "開く",
+    "Abrir",
+    "Ouvrir",
+    "Öffnen",
+    "Открыть",
+    "Abrir"
+  ],
+  "打开侧边栏": [
+    "Open sidebar",
+    "サイドバーを開く",
+    "Abrir barra lateral",
+    "Ouvrir la barre latérale",
+    "Seitenleiste öffnen",
+    "Открыть боковую панель",
+    "Abrir barra lateral"
+  ],
+  "打开右侧边栏": [
+    "Open right sidebar",
+    "右サイドバーを開く",
+    "Abrir barra lateral derecha",
+    "Ouvrir la barre latérale droite",
+    "Rechte Seitenleiste öffnen",
+    "Открыть правую боковую панель",
+    "Abrir barra lateral direita"
+  ],
+  "执行位置": [
+    "Run in",
+    "実行先",
+    "Ejecutar en",
+    "Exécuter dans",
+    "Ausführen in",
+    "Запускать в",
+    "Executar em"
+  ],
+  "拒绝": [
+    "Refuse",
+    "拒否",
+    "Rechazar",
+    "Refuser",
+    "Ablehnen",
+    "Отказаться",
+    "Recusar"
+  ],
+  "按工作区": [
+    "WorkSpace",
+    "ワークスペース",
+    "Espacio de trabajo",
+    "Espace de travail",
+    "WorkSpace",
+    "Рабочее пространство",
+    "Espaço de trabalho"
+  ],
+  "按工作区树": [
+    "Workspace Tree",
+    "ワークスペースツリー",
+    "Árbol del espacio de trabajo",
+    "Arborescence de l'espace de travail",
+    "Arbeitsbereichsbaum",
+    "Дерево рабочей области",
+    "Árvore do espaço de trabalho"
+  ],
+  "排序方式": [
+    "Order by",
+    "並び順",
+    "Ordenar por",
+    "Commander par",
+    "Bestellen nach",
+    "Заказать по",
+    "Encomendar por"
+  ],
+  "排队发送": [
+    "Queue",
+    "キュー",
+    "cola",
+    "File d'attente",
+    "Warteschlange",
+    "Очередь",
+    "Fila"
+  ],
+  "探索未至之境": [
+    "Into the Unknown",
+    "未知への挑戦",
+    "Hacia lo desconocido",
+    "Dans l'inconnu",
+    "Ins Unbekannte",
+    "В неизвестность",
+    "Para o desconhecido"
+  ],
+  "描述你想要构建的内容, / 调用指令, @ 文件或对话": [
+    "Describe what you want to build, / commands, @ files or sessions",
+    "作りたいものを説明してください。/ コマンド、@ ファイルやセッション",
+    "Describe lo que quieres construir, / comandos, @ archivos o sesiones",
+    "Décrivez ce que vous souhaitez construire, / commandes, @ fichiers ou sessions",
+    "Beschreiben Sie, was Sie erstellen möchten: /-Befehle, @-Dateien oder Sitzungen",
+    "Опишите, что вы хотите построить: /команды, @файлы или сеансы.",
+    "Descreva o que você deseja construir, / comandos, @ arquivos ou sessões"
+  ],
+  "插件": [
+    "Plugin",
+    "プラグイン",
+    "Complemento",
+    "Plugin",
+    "Plugin",
+    "Плагин",
+    "Plug-in"
+  ],
+  "插话发送": [
+    "Steer queued message",
+    "キュー内のメッセージを実行中の指示に追加",
+    "Redirigir mensaje en cola",
+    "Guider avec le message en attente",
+    "Mit vorgemerkter Nachricht lenken",
+    "Направить сообщение из очереди",
+    "Orientar com mensagem da fila"
+  ],
+  "搜索任务": [
+    "Search tasks",
+    "タスクを検索",
+    "Tareas de búsqueda",
+    "Tâches de recherche",
+    "Suchaufgaben",
+    "Поиск задач",
+    "Tarefas de pesquisa"
+  ],
+  "搜索会话": [
+    "Search sessions",
+    "セッションを検索",
+    "Buscar sesiones",
+    "Rechercher des sessions",
+    "Sitzungen suchen",
+    "Поиск сеансов",
+    "Buscar sessões"
+  ],
+  "搜索自动化任务": [
+    "Search automation tasks",
+    "自動化タスクを検索",
+    "Tareas de automatización de búsqueda",
+    "Tâches d'automatisation de la recherche",
+    "Suchautomatisierungsaufgaben",
+    "Задачи автоматизации поиска",
+    "Tarefas de automação de pesquisa"
+  ],
+  "收起侧边栏": [
+    "Collapse sidebar",
+    "サイドバーを折りたたむ",
+    "Contraer barra lateral",
+    "Réduire la barre latérale",
+    "Seitenleiste einklappen",
+    "Свернуть боковую панель",
+    "Recolher barra lateral"
+  ],
+  "收起右侧边栏": [
+    "Collapse right sidebar",
+    "右サイドバーを折りたたむ",
+    "Contraer barra lateral derecha",
+    "Réduire la barre latérale droite",
+    "Rechte Seitenleiste einklappen",
+    "Свернуть правую боковую панель",
+    "Recolher barra lateral direita"
+  ],
+  "收起后显示的回复": [
+    "Replies After Collapse",
+    "折りたたみ後の返信",
+    "Respuestas después del plegado",
+    "Réponses après le repli",
+    "Antworten nach dem Einklappen",
+    "Ответы после сворачивания",
+    "Respostas após o recolhimento"
+  ],
+  "放弃": [
+    "Discard",
+    "破棄",
+    "Descartar",
+    "Abandonner",
+    "Verwerfen",
+    "Отменить",
+    "Descartar"
+  ],
+  "文件": [
+    "Files",
+    "ファイル",
+    "Archivos",
+    "Fichiers",
+    "Dateien",
+    "Файлы",
+    "Arquivos"
+  ],
+  "新会话": [
+    "New session",
+    "新しいセッション",
+    "Nueva sesión",
+    "Nouvelle séance",
+    "Neue Sitzung",
+    "Новая сессия",
+    "Nova sessão"
+  ],
+  "新建会话": [
+    "New session",
+    "新規セッション",
+    "Nueva sesión",
+    "Nouvelle séance",
+    "Neue Sitzung",
+    "Новая сессия",
+    "Nova sessão"
+  ],
+  "新建会话并复用": [
+    "Create a session and reuse it",
+    "会話を作成して再利用",
+    "Crear una conversación y reutilizarla",
+    "Créer une conversation et la réutiliser",
+    "Eine Unterhaltung erstellen und wiederverwenden",
+    "Создать беседу и использовать её повторно",
+    "Criar uma conversa e reutilizá-la"
+  ],
+  "新建终端": [
+    "New terminal",
+    "新しいターミナル",
+    "Nueva terminal",
+    "Nouvelle borne",
+    "Neues Terminal",
+    "Новый терминал",
+    "Novo terminal"
+  ],
+  "新建自动化任务": [
+    "New automation task",
+    "新規自動化タスク",
+    "Nueva tarea de automatización",
+    "Nouvelle tâche d'automatisation",
+    "Neue Automatisierungsaufgabe",
+    "Новая задача автоматизации",
+    "Nova tarefa de automação"
+  ],
+  "时区": [
+    "Time zone",
+    "タイムゾーン",
+    "Zona horaria",
+    "Fuseau horaire",
+    "Zeitzone",
+    "Часовой пояс",
+    "Fuso horário"
+  ],
+  "显示代码工作视图": [
+    "Show coding view",
+    "コーディングビューを表示",
+    "Mostrar vista de codificación",
+    "Afficher la vue de codage",
+    "Codieransicht anzeigen",
+    "Показать представление кодирования",
+    "Mostrar visualização de codificação"
+  ],
+  "智能体运行时 Enter 键和发送按钮的行为；Cmd/Ctrl+Enter 使用另一行为": [
+    "What Enter and the Send button do while the agent is running; Cmd/Ctrl+Enter uses the other behavior",
+    "エージェントの実行中にEnterキーと送信ボタンが行う動作。Cmd/Ctrl+Enterではもう一方の動作になります",
+    "Qué hacen los botones Intro y Enviar mientras el agente se está ejecutando; Cmd/Ctrl+Enter usa el otro comportamiento",
+    "Ce que font Entrée et le bouton Envoyer pendant l'exécution de l'agent ; Cmd/Ctrl+Entrée utilise l'autre comportement",
+    "Was die Eingabetaste und die Schaltfläche „Senden“ bewirken, während der Agent ausgeführt wird; Cmd/Strg+Enter verwendet das andere Verhalten",
+    "Что делают кнопки «Ввод» и «Отправить» во время работы агента; Cmd/Ctrl+Enter использует другое поведение.",
+    "O que o botão Enter e o botão Enviar fazem enquanto o agente está em execução; Cmd/Ctrl+Enter usa o outro comportamento"
+  ],
+  "暂无可用模型": [
+    "No models available.",
+    "利用可能なモデルがありません。",
+    "No hay modelos disponibles.",
+    "Aucun modèle disponible.",
+    "Keine Modelle verfügbar.",
+    "Нет доступных моделей.",
+    "Nenhum modelo disponível."
+  ],
+  "更多": [
+    "More",
+    "その他",
+    "Más",
+    "Plus",
+    "Mehr",
+    "Ещё",
+    "Mais"
+  ],
+  "更多工具": [
+    "More tools",
+    "その他のツール",
+    "Más herramientas",
+    "Plus d'outils",
+    "Weitere Werkzeuge",
+    "Дополнительные инструменты",
+    "Mais ferramentas"
+  ],
+  "最近更新": [
+    "Last updated",
+    "最終更新",
+    "Última actualización",
+    "Dernière mise à jour",
+    "Zuletzt aktualisiert",
+    "Последнее обновление",
+    "Última atualização"
+  ],
+  "未分组": [
+    "Ungrouped",
+    "グループなし",
+    "Desagrupados",
+    "Non groupé",
+    "Nicht gruppiert",
+    "Разгруппировано",
+    "Desagrupado"
+  ],
+  "权限": [
+    "Permission",
+    "権限",
+    "Permiso",
+    "Autorisation",
+    "Erlaubnis",
+    "Разрешение",
+    "Permissão"
+  ],
+  "极简模式": [
+    "Minimal mode",
+    "最小モード",
+    "modo mínimo",
+    "Mode minimal",
+    "Minimalmodus",
+    "Минимальный режим",
+    "Modo mínimo"
+  ],
+  "查看": [
+    "Inspect",
+    "詳細を確認",
+    "inspeccionar",
+    "Inspecter",
+    "Inspizieren",
+    "Осмотреть",
+    "Inspecionar"
+  ],
+  "查看和编辑当前可用的快捷键和输入操作": [
+    "View and edit available shortcuts and input actions",
+    "利用可能なショートカットと入力アクションを表示・編集",
+    "Ver y editar atajos disponibles y acciones de entrada",
+    "Afficher et modifier les raccourcis et les actions de saisie disponibles",
+    "Verfügbare Verknüpfungen und Eingabeaktionen anzeigen und bearbeiten",
+    "Просмотр и редактирование доступных ярлыков и действий ввода",
+    "Visualize e edite atalhos e ações de entrada disponíveis"
+  ],
+  "标准": [
+    "Standard",
+    "標準",
+    "Estándar",
+    "Norme",
+    "Standard",
+    "Стандартный",
+    "Padrão"
+  ],
+  "标准模式": [
+    "Standard mode",
+    "標準モード",
+    "Modo estándar",
+    "Mode standard",
+    "Standardmodus",
+    "Стандартный режим",
+    "Modo padrão"
+  ],
+  "模型": [
+    "Model",
+    "モデル",
+    "modelo",
+    "Modèle",
+    "Modell",
+    "Модель",
+    "Modelo"
+  ],
+  "没有匹配的自动化任务": [
+    "No matching tasks",
+    "一致するタスクはありません",
+    "No hay tareas coincidentes",
+    "Aucune tâche correspondante",
+    "Keine passenden Aufgaben",
+    "Нет подходящих задач",
+    "Nenhuma tarefa correspondente"
+  ],
+  "没有自动化任务": [
+    "No automation tasks",
+    "自動化タスクなし",
+    "Sin tareas de automatización",
+    "Aucune tâche d'automatisation",
+    "Keine Automatisierungsaufgaben",
+    "Нет задач автоматизации",
+    "Sem tarefas de automação"
+  ],
+  "浅色": [
+    "Light",
+    "ライト",
+    "Claro",
+    "Clair",
+    "Hell",
+    "Светлая",
+    "Claro"
+  ],
+  "浏览会话工作区的文件": [
+    "Browse files in this session's workspace",
+    "このセッションのワークスペース内のファイルを参照",
+    "Explorar archivos en el espacio de trabajo de esta sesión",
+    "Parcourir les fichiers dans l'espace de travail de cette session",
+    "Durchsuchen Sie die Dateien im Arbeitsbereich dieser Sitzung",
+    "Просмотр файлов в рабочей области этого сеанса",
+    "Procure arquivos no espaço de trabalho desta sessão"
+  ],
+  "消息": [
+    "Message",
+    "メッセージ",
+    "Mensaje",
+    "Message",
+    "Nachricht",
+    "Сообщение",
+    "Mensagem"
+  ],
+  "深色": [
+    "Dark",
+    "ダーク",
+    "Oscuro",
+    "Sombre",
+    "Dunkel",
+    "Тёмная",
+    "Escuro"
+  ],
+  "添加": [
+    "Add",
+    "追加",
+    "Añadir",
+    "Ajouter",
+    "Hinzufügen",
+    "Добавить",
+    "Adicionar"
+  ],
+  "添加工作区": [
+    "Add workspace",
+    "ワークスペースを追加",
+    "Agregar espacio de trabajo",
+    "Ajouter un espace de travail",
+    "Arbeitsbereich hinzufügen",
+    "Добавить рабочую область",
+    "Adicionar espaço de trabalho"
+  ],
+  "添加文件或调用指令": [
+    "Add files or run commands",
+    "ファイルを追加またはコマンドを実行",
+    "Agregar archivos o ejecutar comandos",
+    "Ajouter des fichiers ou exécuter des commandes",
+    "Fügen Sie Dateien hinzu oder führen Sie Befehle aus",
+    "Добавляйте файлы или запускайте команды",
+    "Adicione arquivos ou execute comandos"
+  ],
+  "目标": [
+    "Goal",
+    "目標",
+    "Objetivo",
+    "Objectif",
+    "Ziel",
+    "Цель",
+    "Objetivo"
+  ],
+  "确定": [
+    "确定",
+    "确定",
+    "确定",
+    "确定",
+    "确定",
+    "确定",
+    "确定"
+  ],
+  "等待审批": [
+    "Waiting for approval",
+    "承認待ち",
+    "Esperando aprobación",
+    "En attente d'approbation",
+    "Warten auf Genehmigung",
+    "Ожидание одобрения",
+    "Aguardando aprovação"
+  ],
+  "筛选会话": [
+    "Filter sessions",
+    "セッションを絞り込む",
+    "Filtrar sesiones",
+    "Filtrer les sessions",
+    "Sitzungen filtern",
+    "Фильтровать сеансы",
+    "Filtrar sessões"
+  ],
+  "简洁": [
+    "Compact",
+    "コンパクト",
+    "Compacto",
+    "Compacte",
+    "Kompakt",
+    "Компактный",
+    "Compacto"
+  ],
+  "系统提示词": [
+    "System Prompt",
+    "システムプロンプト",
+    "Aviso del sistema",
+    "Invite système",
+    "Systemaufforderung",
+    "Системная подсказка",
+    "Alerta do sistema"
+  ],
+  "繁忙时的发送行为": [
+    "Send behavior while busy",
+    "実行中の送信動作",
+    "Enviar comportamiento mientras está ocupado",
+    "Comportement d'envoi lorsque vous êtes occupé",
+    "Sendeverhalten, während beschäftigt ist",
+    "Отправлять поведение во время занятости",
+    "Enviar comportamento enquanto estiver ocupado"
+  ],
+  "终端": [
+    "Terminal",
+    "ターミナル",
+    "terminales",
+    "Borne",
+    "Terminal",
+    "Терминал",
+    "Terminais"
+  ],
+  "缓存命中": [
+    "Cache hit",
+    "キャッシュヒット",
+    "Aciertos de caché",
+    "Taux de réussite du cache",
+    "Cache-Treffer",
+    "Попадание в кэш",
+    "Acertos no cache"
+  ],
+  "编辑": [
+    "Edit",
+    "編集",
+    "Editar",
+    "Modifier",
+    "Bearbeiten",
+    "Редактировать",
+    "Editar"
+  ],
+  "编辑快捷键": [
+    "Edit shortcuts",
+    "ショートカットを編集",
+    "Editar atajos",
+    "Modifier les raccourcis",
+    "Verknüpfungen bearbeiten",
+    "Редактировать ярлыки",
+    "Editar atalhos"
+  ],
+  "自动化任务": [
+    "Automation tasks",
+    "自動化タスク",
+    "Tareas de automatización",
+    "Tâches d'automatisation",
+    "Automatisierungsaufgaben",
+    "Задачи автоматизации",
+    "Tarefas de automação"
+  ],
+  "自动化任务内容": [
+    "Automation task instruction",
+    "自動化タスクの指示",
+    "Instrucción de tarea de automatización",
+    "Instruction de tâche d'automatisation",
+    "Anleitung zur Automatisierungsaufgabe",
+    "Инструкция по задаче автоматизации",
+    "Instrução de tarefa de automação"
+  ],
+  "自动化任务名称": [
+    "Automation task name",
+    "自動化タスク名",
+    "Nombre de la tarea de automatización",
+    "Nom de la tâche d'automatisation",
+    "Name der Automatisierungsaufgabe",
+    "Название задачи автоматизации",
+    "Nome da tarefa de automação"
+  ],
+  "自定义": [
+    "Custom",
+    "カスタム",
+    "personalizado",
+    "Personnalisé",
+    "Benutzerdefiniert",
+    "Пользовательский",
+    "Personalizado"
+  ],
+  "视图选项": [
+    "View options",
+    "表示オプション",
+    "Ver opciones",
+    "Afficher les options",
+    "Optionen anzeigen",
+    "Посмотреть варианты",
+    "Ver opções"
+  ],
+  "计划": [
+    "Plan",
+    "計画",
+    "Planificar",
+    "Planifier",
+    "Planen",
+    "План",
+    "Plano"
+  ],
+  "设置": [
+    "Settings",
+    "設定",
+    "Configuración",
+    "Paramètres",
+    "Einstellungen",
+    "Настройки",
+    "Configurações"
+  ],
+  "详细": [
+    "Detailed",
+    "詳細",
+    "Detallado",
+    "Détaillé",
+    "Ausführlich",
+    "Подробный",
+    "Detalhado"
+  ],
+  "语言": [
+    "Language",
+    "言語",
+    "Idioma",
+    "Langue",
+    "Sprache",
+    "Язык",
+    "Idioma"
+  ],
+  "请选择模型": [
+    "Select model",
+    "モデルを選択",
+    "Seleccionar modelo",
+    "Sélectionnez le modèle",
+    "Modell auswählen",
+    "Выберите модель",
+    "Selecione o modelo"
+  ],
+  "跟随系统": [
+    "System",
+    "システム",
+    "Sistema",
+    "Système",
+    "System",
+    "Система",
+    "Sistema"
+  ],
+  "轨迹": [
+    "Trajectory",
+    "軌跡",
+    "Trayectoria",
+    "Trajectoire",
+    "Ausführungsverlauf",
+    "Траектория",
+    "Trajetória"
+  ],
+  "轮次": [
+    "turn",
+    "ターン",
+    "turno",
+    "tour",
+    "Runde",
+    "ход",
+    "turno"
+  ],
+  "运行": [
+    "Run",
+    "実行",
+    "correr",
+    "Courir",
+    "Lauf",
+    "Беги",
+    "Corre"
+  ],
+  "运行时间": [
+    "Run time",
+    "実行時刻",
+    "tiempo de ejecución",
+    "Temps d'exécution",
+    "Laufzeit",
+    "Время выполнения",
+    "Tempo de execução"
+  ],
+  "退出全屏": [
+    "Exit fullscreen",
+    "全画面を終了",
+    "Salir de pantalla completa",
+    "Quitter le plein écran",
+    "Beenden Sie den Vollbildmodus",
+    "Выйти из полноэкранного режима",
+    "Sair da tela cheia"
+  ],
+  "选择一个工作区开始": [
+    "Choose a workspace to start",
+    "開始するワークスペースを選択",
+    "Elija un espacio de trabajo para comenzar",
+    "Choisissez un espace de travail pour commencer",
+    "Wählen Sie einen Arbeitsbereich zum Starten aus",
+    "Выберите рабочее пространство для начала",
+    "Escolha um espaço de trabalho para começar"
+  ],
+  "选择何时自动收起工作步骤": [
+    "Choose when to automatically collapse work details",
+    "作業詳細を自動で折りたたむタイミングを選択",
+    "Elija cuándo contraer automáticamente los detalles del trabajo",
+    "Choisissez quand réduire automatiquement les détails du travail",
+    "Wählen Sie aus, wann Arbeitsdetails automatisch ausgeblendet werden sollen",
+    "Выберите, когда автоматически сворачивать сведения о работе",
+    "Escolha quando recolher automaticamente os detalhes do trabalho"
+  ],
+  "选择工作区": [
+    "Choose workspace",
+    "ワークスペースを選択",
+    "Elige espacio de trabajo",
+    "Choisir un espace de travail",
+    "Wählen Sie einen Arbeitsbereich",
+    "Выберите рабочее пространство",
+    "Escolha o espaço de trabalho"
+  ],
+  "选择希望看到多少工具调用细节": [
+    "Choose how much detail to show for tool calls",
+    "ツール呼び出しの表示詳細度を選択",
+    "Elija cuántos detalles mostrar para las llamadas de herramientas",
+    "Choisissez le niveau de détails à afficher pour les appels d'outils",
+    "Wählen Sie aus, wie viele Details für Werkzeugaufrufe angezeigt werden sollen",
+    "Выберите, насколько подробно следует отображать вызовы инструментов.",
+    "Escolha quantos detalhes serão exibidos nas chamadas de ferramenta"
+  ],
+  "选择性能与用量信息展示的详细程度": [
+    "Choose how much performance and usage information to show",
+    "パフォーマンスと使用状況の表示量を選択",
+    "Elija cuánta información de rendimiento y uso desea mostrar",
+    "Choisissez la quantité d'informations sur les performances et l'utilisation à afficher",
+    "Wählen Sie aus, wie viele Leistungs- und Nutzungsinformationen angezeigt werden sollen",
+    "Выберите, какой объем информации о производительности и использовании показывать",
+    "Escolha quantas informações de desempenho e uso serão exibidas"
+  ],
+  "选择新任务使用的 Agent 预设": [
+    "Choose the agent preset for your new task",
+    "新しいタスクで使用するエージェントプリセットを選択",
+    "Elija el agente preestablecido para su nueva tarea",
+    "Choisissez le préréglage d'agent pour votre nouvelle tâche",
+    "Wählen Sie die Agentenvoreinstellung für Ihre neue Aufgabe",
+    "Выберите предустановку агента для вашей новой задачи",
+    "Escolha a predefinição de agente para sua nova tarefa"
+  ],
+  "选择新会话的默认权限模式": [
+    "Choose the default permission mode for new sessions",
+    "新しいセッションのデフォルトの権限モードを選択",
+    "Elija el modo de permiso predeterminado para nuevas sesiones",
+    "Choisissez le mode d'autorisation par défaut pour les nouvelles sessions",
+    "Wählen Sie den Standardberechtigungsmodus für neue Sitzungen",
+    "Выберите режим разрешений по умолчанию для новых сеансов",
+    "Escolha o modo de permissão padrão para novas sessões"
+  ],
+  "通用设置": [
+    "General",
+    "一般",
+    "General",
+    "Général",
+    "Allgemein",
+    "Общие",
+    "Geral"
+  ],
+  "重命名": [
+    "Rename",
+    "名前を変更",
+    "Cambiar nombre",
+    "Renommer",
+    "Umbenennen",
+    "Переименовать",
+    "Renomear"
+  ],
+  "重命名会话": [
+    "Rename session",
+    "セッション名を変更",
+    "Cambiar nombre de sesión",
+    "Renommer la session",
+    "Sitzung umbenennen",
+    "Переименовать сеанс",
+    "Renomear sessão"
+  ],
+  "重复": [
+    "Repeat",
+    "繰り返し",
+    "repetir",
+    "Répéter",
+    "Wiederholen",
+    "Повторить",
+    "Repetir"
+  ],
+  "隐藏已归档": [
+    "Hide archived",
+    "アーカイブを非表示",
+    "Ocultar archivado",
+    "Masquer les archives",
+    "Archiviert ausblenden",
+    "Скрыть в архиве",
+    "Ocultar arquivado"
+  ],
+  "预览版": [
+    "Preview",
+    "プレビュー",
+    "Vista previa",
+    "Aperçu",
+    "Vorschau",
+    "Предварительный просмотр",
+    "Visualização"
+  ],
+  "工作台": [
+    "Workbench",
+    "ワークスペース",
+    "Área de trabajo",
+    "Espace de travail",
+    "Arbeitsbereich",
+    "Рабочая область",
+    "Área de trabalho"
+  ],
+  "最近会话": [
+    "Recent conversations",
+    "最近の会話",
+    "Conversaciones recientes",
+    "Conversations récentes",
+    "Letzte Unterhaltungen",
+    "Недавние беседы",
+    "Conversas recentes"
+  ],
+  "打开会话": [
+    "Open conversation",
+    "会話を開く",
+    "Abrir conversación",
+    "Ouvrir la conversation",
+    "Unterhaltung öffnen",
+    "Открыть беседу",
+    "Abrir conversa"
+  ]
+}
